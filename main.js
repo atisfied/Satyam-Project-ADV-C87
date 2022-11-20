@@ -1,8 +1,7 @@
-
 var canvas = new fabric.Canvas("myCanvas");
 
-block_y=1;
-block_x=1;
+block_y = 1;
+block_x = 1;
 
 block_image_width = 350;
 block_image_height = 430;
@@ -29,31 +28,31 @@ function my_keydown(e)
 keyPressed = e.keyCode;
 console.log(keyPressed);
 
-   if(keyPressed == '82')
+   if(keyPressed == '114')
    {
        new_image("rr1.png");
        console.log("r Key Pressed");
    }
-   if(keyPressed == '71')
+   if(keyPressed == '103')
    {
        block_x = 200;
        new_image("gr.png");
        console.log("g Key Pressed");
    }
    
-   if(keyPressed == '89')
+   if(keyPressed == '121')
    {
        block_x =350;
        new_image("yr.png");
        console.log("y Key Pressed");
    }
-   if(keyPressed == '80')
+   if(keyPressed == '112')
    {
        block_x = 600;
        new_image("pr.png");
        console.log("p Key Pressed");
    }
-   if(keyPressed == '66')
+   if(keyPressed == '98')
    {
        block_x = 700;
        new_image("br.png");
